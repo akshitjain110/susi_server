@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo -e "Creating javadoc...\n"
+echo -e "Creating javadoc.....\n"
 
 ./gradlew javadoc
 
-echo -e "Publishing javadoc...\n"
+echo -e "Publishing javadoc.....\n"
 
  cp -R build/docs/javadoc $HOME/javadoc-latest
 
